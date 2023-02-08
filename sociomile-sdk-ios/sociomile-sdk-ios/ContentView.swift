@@ -51,7 +51,7 @@ struct ContentView: View {
 
     func showSociomile(){
         
-        let sociomile = Sociomile(bgColorSender: 0xFF33E05E, bgColorOwner: 0xFF384191, colorThemeDefault: 0xFF384191, colorBtnSend: 0xFF384191, colorIconDefault: 0xFF384191, lblColorMsgSender: 0xFFFFFFFF, lblColorMsgOwner: 0xFFFFFFFF, lblColorThemeDefault: 0xFF389400, fontFromNative: "Lato", clientKey: "BBB", clientId: "AAA", userId: "6281288682850", userName: "Zafran", fcmToken: "\(SocioDataModel.shared.getToken())")
+        let sociomile = Sociomile(clientKey: "BBB", clientId: "AAA", userId: "6281288682850", userName: "Zafran")
         sociomile.runSociomileEngine(flutterDependency: flutterDependencies)
 
         flutterDependencies.sociomileActivity()

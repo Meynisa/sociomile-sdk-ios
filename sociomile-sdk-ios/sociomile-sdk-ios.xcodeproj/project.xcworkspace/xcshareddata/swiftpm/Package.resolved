@@ -104,7 +104,7 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ivosights/SociomileSDK.git",
       "state" : {
-        "revision" : "116b4ddcd9fd90136b1317d6cf076b5950b2ba2d",
+        "revision" : "c42867b5befc92f265d6d830ead36da727fb9d75",
         "version" : "0.0.2"
       }
     },
