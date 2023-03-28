@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE557050299388F600A47539 /* SociomileSDK in Frameworks */ = {isa = PBXBuildFile; productRef = CE55704F299388F600A47539 /* SociomileSDK */; };
+		CE3F56B729D2B56400667431 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = CE3F56B629D2B56400667431 /* FirebaseAnalytics */; };
+		CE3F56B929D2B56400667431 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = CE3F56B829D2B56400667431 /* FirebaseMessaging */; };
 		CE6B115B298A434200B983C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B115A298A434200B983C8 /* AppDelegate.swift */; };
 		CE6B115D298A52FE00B983C8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE6B115C298A52FE00B983C8 /* GoogleService-Info.plist */; };
+		CEA73AB329CD61FC0071C8AA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA73AB229CD61FC0071C8AA /* HomeView.swift */; };
+		CEA73AB529CD62090071C8AA /* ShuffleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA73AB429CD62090071C8AA /* ShuffleView.swift */; };
+		CEA73AB729CD62140071C8AA /* NotifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA73AB629CD62140071C8AA /* NotifView.swift */; };
+		CEA73AB929CD621E0071C8AA /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA73AB829CD621E0071C8AA /* ProfileView.swift */; };
+		CEA73ABB29CDB29E0071C8AA /* TransferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA73ABA29CDB29E0071C8AA /* TransferView.swift */; };
 		CEB219A92982580F004E10E5 /* sociomile_sdk_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB219A82982580F004E10E5 /* sociomile_sdk_iosApp.swift */; };
 		CEB219AB2982580F004E10E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB219AA2982580F004E10E5 /* ContentView.swift */; };
 		CEB219AD29825810004E10E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB219AC29825810004E10E5 /* Assets.xcassets */; };
@@ -19,7 +25,7 @@
 		CEB219BF29825810004E10E5 /* sociomile_sdk_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB219BE29825810004E10E5 /* sociomile_sdk_iosTests.swift */; };
 		CEB219C929825810004E10E5 /* sociomile_sdk_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB219C829825810004E10E5 /* sociomile_sdk_iosUITests.swift */; };
 		CEB219CB29825810004E10E5 /* sociomile_sdk_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB219CA29825810004E10E5 /* sociomile_sdk_iosUITestsLaunchTests.swift */; };
-		CEBA9F6F298CCA2E0092391E /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = CEBA9F6E298CCA2E0092391E /* FirebaseMessaging */; };
+		CEEFFEBC29D15070004A576A /* HelpCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEFFEBB29D15070004A576A /* HelpCenterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,10 +45,28 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		CE6A232429B1A03A008DDDE6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		CE6B1159298A3B2300B983C8 /* sociomile-sdk-ios.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "sociomile-sdk-ios.entitlements"; sourceTree = "<group>"; };
 		CE6B115A298A434200B983C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
 		CE6B115C298A52FE00B983C8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CEA73AB229CD61FC0071C8AA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CEA73AB429CD62090071C8AA /* ShuffleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuffleView.swift; sourceTree = "<group>"; };
+		CEA73AB629CD62140071C8AA /* NotifView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifView.swift; sourceTree = "<group>"; };
+		CEA73AB829CD621E0071C8AA /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		CEA73ABA29CDB29E0071C8AA /* TransferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferView.swift; sourceTree = "<group>"; };
 		CEB219A52982580F004E10E5 /* sociomile-sdk-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sociomile-sdk-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB219A82982580F004E10E5 /* sociomile_sdk_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sociomile_sdk_iosApp.swift; sourceTree = "<group>"; };
 		CEB219AA2982580F004E10E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +80,7 @@
 		CEB219C829825810004E10E5 /* sociomile_sdk_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sociomile_sdk_iosUITests.swift; sourceTree = "<group>"; };
 		CEB219CA29825810004E10E5 /* sociomile_sdk_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sociomile_sdk_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CEB219FB298267BB004E10E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CEEFFEBB29D15070004A576A /* HelpCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpCenterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE557050299388F600A47539 /* SociomileSDK in Frameworks */,
-				CEBA9F6F298CCA2E0092391E /* FirebaseMessaging in Frameworks */,
+				CE3F56B929D2B56400667431 /* FirebaseMessaging in Frameworks */,
+				CE3F56B729D2B56400667431 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +110,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CEA73AB129CD61B00071C8AA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEA73AB229CD61FC0071C8AA /* HomeView.swift */,
+				CEA73AB429CD62090071C8AA /* ShuffleView.swift */,
+				CEA73AB629CD62140071C8AA /* NotifView.swift */,
+				CEA73AB829CD621E0071C8AA /* ProfileView.swift */,
+				CEA73ABA29CDB29E0071C8AA /* TransferView.swift */,
+				CEEFFEBB29D15070004A576A /* HelpCenterView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		CEB2199C2982580F004E10E5 = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +148,7 @@
 		CEB219A72982580F004E10E5 /* sociomile-sdk-ios */ = {
 			isa = PBXGroup;
 			children = (
+				CEA73AB129CD61B00071C8AA /* Views */,
 				CE6B115A298A434200B983C8 /* AppDelegate.swift */,
 				CEB219A82982580F004E10E5 /* sociomile_sdk_iosApp.swift */,
 				CEB219AA2982580F004E10E5 /* ContentView.swift */,
@@ -165,6 +204,7 @@
 				CEB219A12982580F004E10E5 /* Sources */,
 				CEB219A22982580F004E10E5 /* Frameworks */,
 				CEB219A32982580F004E10E5 /* Resources */,
+				CE6A232429B1A03A008DDDE6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -172,8 +212,8 @@
 			);
 			name = "sociomile-sdk-ios";
 			packageProductDependencies = (
-				CEBA9F6E298CCA2E0092391E /* FirebaseMessaging */,
-				CE55704F299388F600A47539 /* SociomileSDK */,
+				CE3F56B629D2B56400667431 /* FirebaseAnalytics */,
+				CE3F56B829D2B56400667431 /* FirebaseMessaging */,
 			);
 			productName = "sociomile-sdk-ios";
 			productReference = CEB219A52982580F004E10E5 /* sociomile-sdk-ios.app */;
@@ -248,8 +288,7 @@
 			);
 			mainGroup = CEB2199C2982580F004E10E5;
 			packageReferences = (
-				CEBA9F6D298CCA2E0092391E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-				CE55704E299388F600A47539 /* XCRemoteSwiftPackageReference "SociomileSDK" */,
+				CE3F56B529D2B56400667431 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = CEB219A62982580F004E10E5 /* Products */;
 			projectDirPath = "";
@@ -294,9 +333,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEEFFEBC29D15070004A576A /* HelpCenterView.swift in Sources */,
 				CEB219B229825810004E10E5 /* Persistence.swift in Sources */,
+				CEA73ABB29CDB29E0071C8AA /* TransferView.swift in Sources */,
+				CEA73AB929CD621E0071C8AA /* ProfileView.swift in Sources */,
+				CEA73AB529CD62090071C8AA /* ShuffleView.swift in Sources */,
 				CEB219B529825810004E10E5 /* sociomile_sdk_ios.xcdatamodeld in Sources */,
 				CEB219AB2982580F004E10E5 /* ContentView.swift in Sources */,
+				CEA73AB329CD61FC0071C8AA /* HomeView.swift in Sources */,
+				CEA73AB729CD62140071C8AA /* NotifView.swift in Sources */,
 				CE6B115B298A434200B983C8 /* AppDelegate.swift in Sources */,
 				CEB219A92982580F004E10E5 /* sociomile_sdk_iosApp.swift in Sources */,
 			);
@@ -644,33 +689,25 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		CE55704E299388F600A47539 /* XCRemoteSwiftPackageReference "SociomileSDK" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ivosights/SociomileSDK.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.0.1;
-			};
-		};
-		CEBA9F6D298CCA2E0092391E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+		CE3F56B529D2B56400667431 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
 			requirement = {
-				branch = master;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		CE55704F299388F600A47539 /* SociomileSDK */ = {
+		CE3F56B629D2B56400667431 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CE55704E299388F600A47539 /* XCRemoteSwiftPackageReference "SociomileSDK" */;
-			productName = SociomileSDK;
+			package = CE3F56B529D2B56400667431 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
 		};
-		CEBA9F6E298CCA2E0092391E /* FirebaseMessaging */ = {
+		CE3F56B829D2B56400667431 /* FirebaseMessaging */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CEBA9F6D298CCA2E0092391E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = CE3F56B529D2B56400667431 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseMessaging;
 		};
 /* End XCSwiftPackageProductDependency section */
