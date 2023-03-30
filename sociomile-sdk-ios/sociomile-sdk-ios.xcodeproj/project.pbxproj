@@ -25,6 +25,7 @@
 		CEB219BF29825810004E10E5 /* sociomile_sdk_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB219BE29825810004E10E5 /* sociomile_sdk_iosTests.swift */; };
 		CEB219C929825810004E10E5 /* sociomile_sdk_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB219C829825810004E10E5 /* sociomile_sdk_iosUITests.swift */; };
 		CEB219CB29825810004E10E5 /* sociomile_sdk_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB219CA29825810004E10E5 /* sociomile_sdk_iosUITestsLaunchTests.swift */; };
+		CEB6394B29D569E9001FC847 /* SociomileSDK in Frameworks */ = {isa = PBXBuildFile; productRef = CEB6394A29D569E9001FC847 /* SociomileSDK */; };
 		CEEFFEBC29D15070004A576A /* HelpCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEFFEBB29D15070004A576A /* HelpCenterView.swift */; };
 /* End PBXBuildFile section */
 
@@ -88,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB6394B29D569E9001FC847 /* SociomileSDK in Frameworks */,
 				CE3F56B929D2B56400667431 /* FirebaseMessaging in Frameworks */,
 				CE3F56B729D2B56400667431 /* FirebaseAnalytics in Frameworks */,
 			);
@@ -214,6 +216,7 @@
 			packageProductDependencies = (
 				CE3F56B629D2B56400667431 /* FirebaseAnalytics */,
 				CE3F56B829D2B56400667431 /* FirebaseMessaging */,
+				CEB6394A29D569E9001FC847 /* SociomileSDK */,
 			);
 			productName = "sociomile-sdk-ios";
 			productReference = CEB219A52982580F004E10E5 /* sociomile-sdk-ios.app */;
@@ -289,6 +292,7 @@
 			mainGroup = CEB2199C2982580F004E10E5;
 			packageReferences = (
 				CE3F56B529D2B56400667431 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				CEB6394929D569E8001FC847 /* XCRemoteSwiftPackageReference "SociomileSDK" */,
 			);
 			productRefGroup = CEB219A62982580F004E10E5 /* Products */;
 			projectDirPath = "";
@@ -697,6 +701,14 @@
 				minimumVersion = 9.0.0;
 			};
 		};
+		CEB6394929D569E8001FC847 /* XCRemoteSwiftPackageReference "SociomileSDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ivosights/SociomileSDK.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.3;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -709,6 +721,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = CE3F56B529D2B56400667431 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseMessaging;
+		};
+		CEB6394A29D569E9001FC847 /* SociomileSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEB6394929D569E8001FC847 /* XCRemoteSwiftPackageReference "SociomileSDK" */;
+			productName = SociomileSDK;
 		};
 /* End XCSwiftPackageProductDependency section */
 

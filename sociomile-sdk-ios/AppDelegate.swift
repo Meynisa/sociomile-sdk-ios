@@ -9,7 +9,7 @@ import Foundation
 import UserNotifications
 import Firebase
 import UIKit
-//import SociomileSDK
+import SociomileSDK
 
 class AppDelegate: NSObject, UIApplicationDelegate, ObservableObject {
     
@@ -56,7 +56,7 @@ extension AppDelegate: MessagingDelegate{
         // TODO: If necessary send token to application server.
         // Note: This callback is fired at each app startup and whenever a new token is generated.
 
-//        SocioDataModel.shared.fcmToken(fcmToken ?? "")
+        SocioDataModel.shared.fcmToken(fcmToken ?? "")
     }
 }
 
@@ -70,7 +70,7 @@ extension AppDelegate: UNUserNotificationCenterDelegate{
         }
         print(userInfo)
         notif = userInfo as NSDictionary
-//        SocioDataModel.shared.notification(notif!)
+        SocioDataModel.shared.notification(notif!)
         completionHandler([[.banner, .badge, .sound]])
     }
     
